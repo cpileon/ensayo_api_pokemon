@@ -27,6 +27,7 @@ function App() {
       <div>
         Peso: {poke.weight}
       </div>
+      {/* Me sale error cuando renderizo este tipo de variables. Entiendo que es porque la asincronía de la API, pero no se me ocurre una mejor solución más que generar muchos states para cada cosita*/}
       <p>tipo: {poke.types[0].type.name} </p>
     </>
   )
