@@ -1,0 +1,16 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+
+.grass{
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border-radius: 5px;
+  width: 50px;
+  color: white;
+}
